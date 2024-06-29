@@ -7,3 +7,5 @@ haven't been writing much, just dumping files but I might as well start. Today I
 
 Something I was thinking about was maybe this model inititally to grab focus close-ish to a target, then PDAF or CBAF to get the focus nice and crispy. Then make that autofocus system not move too far from the initial point, then if needed I could a button that redoes the distancing -> lock on? idk, all just thinking lol
 
+also at the moment it doesn't work with images of flying birds, since their wingspans are so long. I've been thinking of ways to correct it, maybe do a ML model to draw a line along the bird's body? I could fine-tune yolo to do that and the data wouldn't be too hard to make. I could just spend a couple hours drawing a line across birds and get a couple hundred test images. That way I could get rid of the bounding box math too, just compare the length of the line to any one side of the image for percent. 
+
