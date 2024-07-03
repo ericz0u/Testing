@@ -1,6 +1,7 @@
 # Testing dump
 Random things I experiment with through summer 2024. Mostly testing out things for my main projects(Weiss Judge, Weiss Translate, Weiss Player). Langchain, BERT model fine-tuning, CNNs, etc.
-
+### 7/03/2024
+Did some more stuff with terraform, and then playted around with some real time object detection models. I compared RT-DETR and a generic DETR model from huggingface. running locally on my mac both were pretty slow, but the RT-DETR model did seem to be slightly faster. next time I'll use python to time them and try running them on some hosted instances, would probably make it a lot faster.
 ### 7/02/2024
 Followed a two hour video guide for terraform. A lot less intimidating than I thought it would be, it's just some simple code and commands. Hardest part is probably just figuring out which resources to provision in the first place.
 
